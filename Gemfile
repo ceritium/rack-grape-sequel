@@ -3,14 +3,15 @@ source 'http://rubygems.org'
 ruby '2.3.1'
 
 gem 'grape', '~> 0.16'
-gem 'grape-entity'
 gem 'grape-swagger'
-gem 'grape-swagger-entity'
 gem 'json'
 gem 'newrelic_rpm'
 gem 'rack-cors'
 gem 'mime-types'
 gem 'nokogiri'
+gem 'sequel'
+gem 'mysql2'
+
 
 group :development do
   gem 'rake'

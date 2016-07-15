@@ -1,4 +1,5 @@
 module Acme
+  DB = Sequel.connect("mysql2://root@localhost:3306/besepa-stats")
   class App
     def initialize
       @filenames = ['', '.html', 'index.html', '/index.html']
@@ -11,6 +12,7 @@ module Acme
 
     def self.instance
       @instance ||= Rack::Builder.new do
+
         use Rack::Cors do
           allow do
             origins '*'
