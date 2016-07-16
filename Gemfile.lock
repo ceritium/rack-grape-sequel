@@ -131,6 +131,7 @@ DEPENDENCIES
   minitest
   mysql2
   newrelic_rpm
+  pry
   puma
   rack-cors
   rake

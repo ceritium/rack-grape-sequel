@@ -18,6 +18,7 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-rack'
   gem 'rubocop'
+  gem 'pry'
 end
 
 group :test do
