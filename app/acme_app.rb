@@ -1,5 +1,7 @@
 module Acme
-  DB = Sequel.connect("mysql3://root@localhost:3306/besepa-stats", logger: Logger.new(STDOUT))
+
+  DB = Sequel.connect("mysql2://root@localhost:3306/besepa-stats", logger: Logger.new(STDOUT))
+
   class App
     def initialize
       @filenames = ['', '.html', 'index.html', '/index.html']
