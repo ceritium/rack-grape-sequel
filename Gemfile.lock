@@ -65,7 +65,7 @@ GEM
     mustermann (1.0.3)
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
-    mysql2 (0.4.4)
+    mysql2 (0.5.2)
     nenv (0.3.0)
     newrelic_rpm (3.16.0.318)
     notiffany (0.1.0)
