@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby '2.3.1'
 
-gem 'grape', '~> 0.16'
+gem 'grape', '~> 1.1'
 gem 'grape-swagger'
 gem 'json'
 gem 'rack-cors'
