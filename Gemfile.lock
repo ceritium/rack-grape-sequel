@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (5.2.1)
+    activesupport (5.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -15,21 +15,21 @@ GEM
     coderay (1.1.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.5)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.11)
     ffi (1.9.25)
     formatador (0.2.5)
-    grape (1.1.0)
+    grape (1.2.4)
       activesupport
       builder
       mustermann-grape (~> 1.0.0)
       rack (>= 1.3.0)
       rack-accept
       virtus (>= 1.0.0)
-    grape-swagger (0.22.0)
-      grape (>= 0.12.0)
+    grape-swagger (0.33.0)
+      grape (>= 0.16.2)
     guard (2.14.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -48,7 +48,7 @@ GEM
       ffi
       guard (~> 2.3)
       spoon
-    i18n (1.1.0)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     jaro_winkler (1.5.1)
@@ -81,7 +81,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (3.4.0)
-    rack (2.0.5)
+    rack (2.0.7)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-cors (1.0.2)
