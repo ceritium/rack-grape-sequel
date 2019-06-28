@@ -68,7 +68,7 @@ GEM
       mustermann (~> 1.0.0)
     mysql2 (0.4.4)
     nenv (0.3.0)
-    newrelic_rpm (3.16.0.318)
+    newrelic_rpm (6.5.0.357)
     notiffany (0.1.0)
       nenv (~> 0.1)
       shellany (~> 0.0)
